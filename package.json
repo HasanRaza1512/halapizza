@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "node node_modules/vite/bin/vite.js pizza-react",
-    "build": "node node_modules/vite/bin/vite.js build pizza-react",
-    "preview": "node node_modules/vite/bin/vite.js preview pizza-react"
+    "dev": "vite pizza-react",
+    "build": "vite build pizza-react",
+    "preview": "vite preview pizza-react"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.4",
